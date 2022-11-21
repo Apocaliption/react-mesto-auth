@@ -112,7 +112,7 @@ function App() {
     setIsEditProfilePopupOpen(false);
     setIsAddPlacePopupOpen(false);
     setImagePopupOpen(false);
-    setSelectedCard();
+    setSelectedCard(null);
   }
 
   return (
