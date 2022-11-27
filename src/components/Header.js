@@ -1,23 +1,15 @@
-import logo from "../images/Vector3.svg";
-import { Link } from "react-router-dom";
+import logo from '../images/Vector3.svg';
 
-function Header(props) {
+function Header() {
   return (
-    <header className="header">
-      <img src={logo} alt="Логотип" className="header__logo" />
-      <nav className="header__auth">
-        <p className="header__text">{props.mail}</p>
-        <Link
-          to={props.route}
-          className="header__link"
-          type="button"
-          onClick={props.onClick}
-        >
-          {props.title}
-        </Link>
-      </nav>
-    </header>
-  );
+<header className="header">
+    <img
+      src={logo}
+      alt="Логотип"
+      className="header__logo"
+    />
+  </header>
+  )
 }
 
 export default Header;
